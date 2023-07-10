@@ -24,7 +24,7 @@ prompt([
   {
     type: "input",
     name: "pokemon",
-    message: "Enter a napokemon to see it's first 5 moves",
+    message: "Enter a pokemon to see it's first 5 moves",
   },
 ]).then((answers) => {
   const pokemon = answers.pokemon;
